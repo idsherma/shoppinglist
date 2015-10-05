@@ -1,0 +1,128 @@
+body {
+	background-image: url('../img/daffodil.jpeg');
+	background-size: cover;
+	overflow: auto;
+	background-repeat: repeat;
+	max-width: 100%;
+}
+
+.header {
+	display: inline-block;
+	position: absolute;
+	background-color: #F5DF01;
+	width: 100%;
+	height: 85px;
+	background-size: cover;
+	overflow: auto;
+	margin-top: -17px;
+	margin-left: -8px;
+	margin-right: 100%;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 6px;
+	letter-spacing: 2px;
+	text-shadow: 2.5px 2.5px #ff0000;
+}
+
+.footer {
+	display: inline-block;
+	background-color: #F5DF01;
+	width: 100%;
+	height: 70px;
+	background-size: cover;
+	overflow: auto;
+	position: absolute;
+	bottom: 0;
+	margin-left: -8px;
+}
+
+.main {
+	position: fixed;
+	top: 20%;
+	left: 32%;
+}
+
+#newItem {
+	width: 415px;
+	height: 30px;
+	border-color: #666666;
+	border-width: thin;
+}
+
+button {
+	font-family: 'Oswald', sans-serif;
+	width: 110px;
+	height: 30px;
+	position: fixed;
+	top: 21.5%;
+	left: 67%;
+	margin-top: -7.5px;
+	background-color: #F5DF01;
+	border-color: #F5DF01;
+	font-size: 1rem;
+	border-radius: 20px;
+}
+
+ul {
+	list-style-type: none;
+	font-family: 'Oswald', sans-serif;
+}
+
+#one {
+	position: fixed;
+	top: 28%;
+	left: 32%;
+	background-color: #F5DF01;
+	width: 420px;
+	height: 30px;
+}
+
+#two{
+	position: fixed;
+	top: 35%;
+	left: 32%;
+	background-color: #F5DF01;
+	width: 420px;
+	height: 30px;
+}
+
+#three {
+	position: fixed;
+	top: 42%;
+	left: 32%;
+	background-color: #F5DF01;
+	width: 420px;
+	height: 30px;
+	opacity: 0.5;
+}
+
+#four {
+	position: fixed;
+	top: 49%;
+	left: 32%;
+	background-color: #F5DF01;
+	width: 420px;
+	height: 30px;
+	opacity: 0.5;
+}
+
+#five {
+	position: fixed;
+	top: 56%;
+	left: 32%;
+	background-color: #F5DF01;;
+	width: 420px;
+	height: 30px;
+	opacity: 0.5;
+}
+
+
+
+
+
+
