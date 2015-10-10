@@ -12,10 +12,11 @@
 <body>
 	<div class="list-form">
 		<div class="main">
-			<input type="text" id="newItem" maxlength="22">
+			<input type="text" class="newItem" name="checkListItem" maxlength="22">
 		</div>	
 		<div class="button">
-			<button>ADD</button>
+			<button class="add">ADD</button>
+			<button class="reset">RESET LIST</button>
         </div>	
 	</div>
 	<section class="border-section">
@@ -27,17 +28,11 @@
 		<div class="footer"></div>
 	</section>
 	<section class="shopping-list">
-		<div class="box">
-			<div class="content">
 				<ul>
-					<li id="one">Balsamic vinegar</li>
-					<li id="two">Chicken</li> 
-					<li id="three">Juice</li>
-					<li id="four">Kale</li>
-					<li id="five">Honey</li>
-				</ul>
-			</div>		
-		</div>
+					<button class="checkbox">✓</button>
+					<div class="list"></div>
+					<button class="delete">x</button>
+				</ul>	
 	</section>
 </body>
 </html>

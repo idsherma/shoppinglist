@@ -47,14 +47,14 @@ h1 {
 	left: 32%;
 }
 
-#newItem {
+.newItem {
 	width: 415px;
 	height: 30px;
 	border-color: #666666;
 	border-width: thin;
 }
 
-button {
+.add {
 	font-family: 'Oswald', sans-serif;
 	width: 110px;
 	height: 30px;
@@ -73,8 +73,7 @@ ul {
 	font-family: 'Oswald', sans-serif;
 }
 
-#one {
-	position: fixed;
+.list {
 	top: 28%;
 	left: 32%;
 	background-color: #F5DF01;
@@ -82,44 +81,32 @@ ul {
 	height: 30px;
 }
 
-#two{
+.checkbox, .delete {
+	position: fixed;
+	top: 29%;
+	left: 29%;
+}
+
+.delete {
+	color: red;
+	position: fixed;
+	top: 29%;
+	left: 68%;
+}
+
+.reset {
+	font-family: 'Oswald', sans-serif;
+	width: 120px;
+	height: 30px;
 	position: fixed;
 	top: 35%;
-	left: 32%;
+	left: 45%;
 	background-color: #F5DF01;
-	width: 420px;
-	height: 30px;
+	font-size: 1rem;
+	border-radius: 20px;
 }
 
-#three {
-	position: fixed;
-	top: 42%;
-	left: 32%;
-	background-color: #F5DF01;
-	width: 420px;
-	height: 30px;
-	opacity: 0.5;
-}
 
-#four {
-	position: fixed;
-	top: 49%;
-	left: 32%;
-	background-color: #F5DF01;
-	width: 420px;
-	height: 30px;
-	opacity: 0.5;
-}
-
-#five {
-	position: fixed;
-	top: 56%;
-	left: 32%;
-	background-color: #F5DF01;;
-	width: 420px;
-	height: 30px;
-	opacity: 0.5;
-}
 
 
 
